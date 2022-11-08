@@ -1,0 +1,120 @@
+
+  /* ---- main CSS ---- */
+  body {
+    background-image: url(foto.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-color: #185ADB;
+    }
+    
+
+#box {
+  background-color: rgb(240, 240, 240);
+  width: 30%;
+  margin-left: 60px;
+  margin-top: 100px;
+  padding: 20px;
+  border: 3px solid #fff;
+  position: absolute;
+
+ 
+
+}
+h3 {
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+}
+#guess {
+    padding: 10px;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border: none;
+}
+#btn {
+    background-color: #185ADB;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+  /* ---- Animation CSS start ---- */
+body {
+    margin: 0;
+    font:normal 75% Arial, Helvetica, sans-serif;
+  }
+  
+
+  
+  /* ---- particles.js container ---- */
+  
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+  }
+  
+  /* ---- stats.js ---- */
+  
+  .count-particles{
+    background: #000022;
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 80px;
+    color: #13E8E9;
+    font-size: .8em;
+    text-align: left;
+    text-indent: 4px;
+    line-height: 14px;
+    padding-bottom: 2px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .js-count-particles{
+    font-size: 1.1em;
+  }
+  
+
+  
+  #stats{
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+  }
+  
+  .count-particles{
+    border-radius: 0 0 3px 3px;
+  }
+
+@media all and (max-width: 1200px){
+    #box {
+        width: 40%;
+    
+    }
+}
+@media all and (max-width: 800px) {
+  
+    #box {
+        width: 70%;
+    }
+    #guess{
+        width: 80px;
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+@media all and (max-width: 500px){
+    #guess {
+        width: 150px;
+        padding: 5px;
+        font-size: 10px;
+    }
+}
